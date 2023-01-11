@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags em HTML5</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(104, 87, 199, 0.264);
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.475);
+            border-radius: 5px;
+        }
+        nav {
+            background-color: #892be27b;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.441);
+            border-radius: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin:7%;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.434);
+            border-radius: 5px;
+        }
+        article {
+            background-color: bisque;
+            padding: 5px;
+            border-radius: 5px;
+            
+
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.208);
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 1px;
+            box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.485);
+            border-radius: 5px;
+        }
+        footer > p {
+            margin: 0px
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus Site</h1>
+        <nav>
+            <a href="#">um</a>
+            <a href="#">dois</a>
+            <a href="#">tres</a>
+            <a href="#">quatro</a>
+            <a href="#">cinco</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda reprehenderit optio cupiditate beatae quia architecto sequi ipsum quisquam voluptates, error nobis, expedita illo eveniet ad! Sint et soluta illo?</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticias do Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis modi sunt et ab totam, recusandae quos. Repellendus laboriosam incidunt commodi cumque quae perspiciatis a nisi, quidem error sunt nihil nemo!</p>
+                <aside>Artigo escrito por Jose da Silva</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+
+</body>
+</html>
