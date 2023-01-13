@@ -112,16 +112,18 @@ main p {
 
 }
 
-main a{
+main  a {
     background-color: #39602747;
     border-radius: 2px;
     padding: 2px;    
     text-decoration: none;
+
 }
+   main a::after{content: '\1F517'
+    }
 
 main img {
     width: 100%;
-
 }
 
 main img.pequeno{
