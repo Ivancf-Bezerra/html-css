@@ -4,11 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 
 :root {
     --fonte1: verdana, geneva, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Roboto', sans-serif;
+    --fonte3: 'Dancing Script', cursive;
 }
 
 * {
@@ -19,7 +21,6 @@
 
 html, body {
     min-height: 100%;
-    background-color: rgb(105, 116, 112);
     font-family: var(--fonte1);
 }
 
@@ -61,23 +62,25 @@ section > p {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left:30px ;  
     font-family: var(--fonte3);  
-    font-size: 3.5vw;
+    font-size: 5vh;
     font-style: italic;
+    font-weight: normal;
 
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(249, 250, 239);
     color: black;
 }
 
 section.img {
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
-    box-shadow:inset 4px 4px 8px 0px rgba(0, 0, 0, 0.507);
+    box-shadow:inset 0px 0px 15px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 50px 0px;
 }
 
 section.img#img1{
