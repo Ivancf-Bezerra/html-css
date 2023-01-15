@@ -64,7 +64,8 @@ section {
     line-height: 2em;
     padding-left:30px ;  
     font-family: var(--fonte3);  
-    font-size: 4vw;
+    font-size: 3.5vw;
+    font-style: italic;
 
 }
 
@@ -77,6 +78,22 @@ section.img {
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
 
+}
+
+section.img#img1{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+section.img#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 section.img > p {
