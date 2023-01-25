@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Todas as demais versões */
+
+/*
+Peq Telas : max 600px
+Cel: min 600px max 768px
+Tablet: min 768 max 992px
+Desktop: min 992 max 1200px
+Grand Telas: min 1200px
+*/
+
+@media print {
+    body{
+        background-image: url(../imagens/back-print.jpg);/* nao imprime fundos*/
+
+        
+    }
+
+    main {
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after {
+        content: 'Essa impressao foi feita atraves do site www.meusite.com.br';        
+        text-decoration: overline;
+        text-align: center;
+
+    }
+
+    main h1 {
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: none;
+            color: black;
+
+    }
+
+    #phone {display: none;}
+    #tablet{display: none;}
+    #print {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone {display: none;}
+    #tablet{display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg) ;
+    }
+
+    #phone {display: none;}
+    #tablet{display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+    
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg) ;
+    }
+
+    #phone {display: none;}
+    #tablet{display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+   
+}
