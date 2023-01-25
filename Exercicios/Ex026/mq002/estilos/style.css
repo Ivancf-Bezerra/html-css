@@ -18,4 +18,6 @@ h1 {
     color: rgb(74, 202, 164);
     text-shadow: 2px 2px 0px rgb(1, 39, 28);
     padding: 10px;
+    display: block;
 }
+
