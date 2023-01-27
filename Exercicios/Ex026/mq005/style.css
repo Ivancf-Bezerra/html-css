@@ -42,7 +42,7 @@ header h2  {
 }
 
 #itens {
-    display: block;
+    display: none;
 }
 
 menu > ul {
