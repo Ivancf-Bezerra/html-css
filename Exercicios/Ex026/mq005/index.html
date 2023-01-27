@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Menu responsivo com HTML5 e CSS3</h1>
+    <header>
+        <h2>Meu Site</h2>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum consequatur voluptates repudiandae facere sed soluta, officiis eaque quasi veritatis inventore minima reprehenderit tenetur ut vero. Facilis totam earum necessitatibus quo.
+            Cum tempore quibusdam dolorem provident illum voluptas suscipit a saepe tenetur, voluptatem nostrum dolore? Neque odit nostrum exercitationem voluptatibus, eos, possimus quaerat dolorum assumenda qui commodi voluptas libero itaque. Distinctio?
+            Enim, eius excepturi vitae omnis non incidunt rem eos cumque? Omnis quae dicta velit optio, accusamus voluptatem quam hic reiciendis laboriosam quibusdam at, consequatur fugiat, iste veniam praesentium. Pariatur, delectus!
+            Doloremque quidem explicabo quis facere voluptas nostrum vero, asperiores assumenda eos reiciendis cum voluptatum fuga beatae, repellendus laborum. Quo sit praesentium in asperiores quibusdam architecto eius unde inventore cum necessitatibus!
+            Expedita dolores facilis voluptatum explicabo dicta enim sed illo soluta recusandae, voluptatibus dolor possimus? Nobis iure nesciunt veniam laboriosam beatae tempore quibusdam, incidunt porro eligendi praesentium quas facere molestias ut.</p>
+        </article>
+    </main>
+<script>
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display ='block'
+        }
+    }
+</script>    
+</body>
+</html>
