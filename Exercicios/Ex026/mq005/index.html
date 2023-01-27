@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midia-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <h1>Menu responsivo com HTML5 e CSS3</h1>
     <header>
         <h2>Meu Site</h2>
@@ -40,6 +41,14 @@
             itens.style.display = 'none'
         } else {
             itens.style.display ='block'
+        }
+    }
+
+    function mudouTamanho() {
+        if (window.innerwidth >= 768) {
+            itens.style.display = 'block'
+        } else {
+            itens.style.display = 'block'
         }
     }
 </script>    
